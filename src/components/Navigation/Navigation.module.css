@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  column-gap: 32px;
+}
+.link {
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+.active {
+  color: var(--btn-hover-color);
+}

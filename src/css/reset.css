@@ -142,6 +142,9 @@ input:focus {
   outline: none;
   box-shadow: none;
 }
+button {
+  cursor: pointer;
+}
 input {
   font-family: inherit;
   border: none;

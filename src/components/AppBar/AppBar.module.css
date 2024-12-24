@@ -1,0 +1,16 @@
+@import "../../css/variables.css";
+
+.header {
+  position: relative;
+  background-color: var(--header-bg-color);
+  padding: 24px 0px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header > :nth-child(2) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
