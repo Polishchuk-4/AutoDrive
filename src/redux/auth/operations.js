@@ -12,7 +12,7 @@ import {
 
 import { collection, query, where, getDocs } from "firebase/firestore";
 
-import { db } from "../../firebase";
+// import { db } from "../../firebase";
 
 import { thunkApiHandlerError } from "../../components/handlrs/thunkApiHandlerError";
 
