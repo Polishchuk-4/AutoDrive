@@ -3,6 +3,9 @@ import { getAuth } from "firebase/auth";
 // import { getFirestore } from "firebase/firestore";
 
 const apiKey = import.meta.env.VITE_API_KEY;
+
+console.log(apiKey);
+
 const authDomain = import.meta.env.VITE_AUTH_DOMAIN;
 const projectId = import.meta.env.VITE_PROJECT_ID;
 const storageBucket = import.meta.env.VITE_STORAGE_BUCKET;
